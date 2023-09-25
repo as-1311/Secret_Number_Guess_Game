@@ -8,7 +8,7 @@ using namespace std;
 int main() {
     srand(time(0));
     const int minNumber = 1;
-    const int maxNumber = 100;
+    const int maxNumber = 1000;
 
     char playAgain;
     
@@ -48,4 +48,5 @@ int main() {
     cout << "Thanks for playing! Goodbye." << endl;
     
     return 0;
+    //Anushka Sharma
 }
