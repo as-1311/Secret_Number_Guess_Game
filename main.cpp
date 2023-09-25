@@ -7,18 +7,21 @@ using namespace std;
 
 int main() {
     srand(time(0));
-    const int minNumber = 1;
-    const int maxNumber = 100;
+    
+    cout<<"Enter minimum number output : ";
+    cin>>const int minNo.;
+    cout<<"Enter maximum number output : ";
+    cin>>const int maxNo.;
 
     char playAgain;
     
     do {
-        int secretNumber = rand() % (maxNumber - minNumber + 1) + minNumber;
+        int secretNumber = rand() % (maxNo. - minNo. + 1) + minNo.;
         int attempts = 0;
         int guess;
         
         cout << "Welcome to the Number Guessing Game!" << endl;
-        cout << "I'm thinking of a number between " << minNumber << " and " << maxNumber << "." << endl;
+        cout << "I'm thinking of a number between " << minNo. << " and " << maxNo. << "." << endl;
         
         while (true) {
             cout << "Enter your guess: ";
@@ -48,4 +51,5 @@ int main() {
     cout << "Thanks for playing! Goodbye." << endl;
     
     return 0;
+    //Anushka Sharma
 }
